@@ -1,8 +1,9 @@
 import React from "react";
+import './main.css'
 
 const TableBody = props => {
     return (
-        <tbody>
+        <tbody className="text-info">
             
             {props.users ? props.users.map((user, i) =>(<tr>
                         <th scope="row">{i + 1}</th>
